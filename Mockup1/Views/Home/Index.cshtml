@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = null;
+}
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>p1</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/Mockup.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <a>
+                    <img class="img-circle" src="~/images//logo.png" alt="udacity logo" onclick="alert('hello')" />
+                </a>
+            </div>
+            <div class="col-lg-6">
+                <p class="name">
+                    JANE DOETTE
+                </p>
+                <p class="nickname">
+                    FRONT-END NINJA
+                </p>
+                <p id="test"></p>
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="article">
+                <img src="~/images//htmlsnippet.JPG" height="350" width="1250" alt="html snippet" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 class="featured grey">
+                        FEATURED WORK
+                    </h3>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="item" id="item-left">
+                            <img src="~/images//appify.JPG" alt="appify logo" />
+                            <h3 class="green">
+                                APPIFY
+                            </h3>
+                            <div class="txt-small">
+                                <a class="grey" href="https://github.com/udacity/Appify/">https://github.com/udacity/Appify/</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="item" id="item-mid">
+                            <img src="~/images//sunflower.JPG" alt="sunflower logo" />
+                            <div class="imgtext">
+                                <div class="center-block">
+                                    <h3 class="green">
+                                        SUNFLOWER
+                                    </h3>
+                                </div>
+                                <div class="txt-small">
+                                    <a class="grey" href="https://github.com/udacity/Sunflower/">https://github.com/udacity/Sunflower/</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="item" id="item-right">
+                            <img src="~/images/bokeh.JPG" alt="bokeh logo" />
+                            <div class="imgtext">
+                                <div>
+                                    <h3 class="green">
+                                        BOKEH
+                                    </h3>
+                                </div>
+                                <div class="txt-small">
+                                    <a class="grey" href="https://github.com/udacity/Bokeh/">https://github.com/udacity/Bokeh/</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

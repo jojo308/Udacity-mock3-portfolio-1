@@ -1,0 +1,99 @@
+﻿:root {
+    --grey: #BCBBBB;
+    --green: #747704;
+}
+
+body {
+    line-height: 0.8;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+@font-face {
+    font-family: customFont;
+    src: url('/fonts/Ostrich Regular.ttf');
+}
+
+.green {
+    color: var(--green);
+}
+
+.grey {
+    color: var(--grey);
+}
+
+p.name {
+    font-family: customFont;
+    font-size: 100px;
+    text-align: right;
+    color: var(--grey);
+}
+
+p.nickname {
+    font-family: Roboto, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+div.article {
+    height: 50%;
+}
+
+.imgtext {
+    display: block;
+}
+
+.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+
+div#item-left {
+    float: left;
+}
+
+div#item-mid {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+div#item-right {
+    float: right;
+}
+
+hr {
+    border: 2.5px solid var(--grey);
+    width: 100%;
+}
+
+.nickname {
+    text-align: right;
+    font-size: 20px;
+    color: var(--green);
+}
+
+.footer {
+    font-size: 35px;
+    display: block;
+    justify-content: space-between;
+}
+
+.featured {
+    padding-left: 15px;
+    font-size: 27px;
+}
+
+.article {
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+
+.txt-small {
+    font-size: 15px;
+}
